@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Denis Novik</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="wrapper">
+          <input type="checkbox" id="check-menu" />
+          <label for="check-menu"></label>
+          <span class="burger-line first"></span>
+          <span class="burger-line second"></span>
+          <span class="burger-line third"></span>
+          <span class="burger-line fourth"></span>
+          <nav class="main-menu">
+            <a class="burger-link" href="">Home</a>
+            <a class="burger-link" href="#About me">About me</a>
+            <a class="burger-link" href="#Skills">Skills</a>
+            <a class="burger-link" href="#Portfolio">Portfolio</a>
+            <a class="burger-link" href="#Contacts">Contacts</a>
+          </nav>
+        </div>
+        <ul class="menu">
+          <li><a class="menu__link" href="">Home</a></li>
+          <li><a class="menu__link" href="#About me">About me</a></li>
+          <li><a class="menu__link" href="#Skills">Skills</a></li>
+          <li><a class="menu__link" href="#Portfolio">Portfolio</a></li>
+          <li><a class="menu__link" href="#Contacts">Contacts</a></li>
+        </ul>
+        <div class="header__info">
+          <p class="header__info_left">Denis Novik</p>
+          <p class="header__info_right">
+            UX | UI designer<br />24 years old, Minsk
+          </p>
+        </div>
+        <!-- <picture>
+          <source
+            srcset="./images/novik_mob.png"
+            media="(max-width: 375px)"
+            alt="Denis Novik"
+          /> -->
+        <img
+          class="header__img"
+          src="./images/Novik_desk.png"
+          alt="Denis Novik"
+        />
+        <img
+          class="header__img-mob"
+          src="./images/novik_mob.png"
+          alt="Denis Novik"
+        />
+        <!-- </picture> -->
+      </div>
+    </header>
+    <main>
+      <section class="about" id="About me">
+        <div class="container">
+          <h2 class="about__title" id="About me">About me</h2>
+          <div class="about__text">
+            <p>
+              Hi, I'm Denis – UX/UI designer from Minsk.<br />
+              I'm interested in design and everything connected with it.
+            </p>
+            <p>
+              I'm studying at courses "Web and mobile design <br />interfaces"
+              in IT-Academy.
+            </p>
+            <p>
+              Ready to implement excellent projects <br />with wonderful people.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="skills" id="Skills">
+        <div class="container">
+          <h2 class="skills__title">Skills</h2>
+          <p class="skills__subtitle">I work in such programs as</p>
+          <div class="skills-programs">
+            <div class="skills-programs_item">
+              <img class="icon" src="/images/Ps.svg" alt="PS" />
+              <p class="programs">Adobe <br />Photoshop</p>
+              <div class="stars">
+                <img src="/images/Star.svg" alt="" />
+                <img src="/images/Star.svg" alt="" />
+                <img src="/images/Star.svg" alt="" />
+                <img src="/images/Star.svg" alt="" />
+                <img src="/images/Star1.svg" alt="" />
+              </div>
+            </div>
+            <div class="skills-programs_item">
+              <img class="icon" src="/images/ai.svg" alt="Ai" />
+              <p class="programs">Adobe <br />Illustrator</p>
+              <div class="stars">
+                <img src="/images/Star.svg" alt="" />
+                <img src="/images/Star.svg" alt="" />
+                <img src="/images/Star.svg" alt="" />
+                <img src="/images/Star1.svg" alt="" />
+                <img src="/images/Star1.svg" alt="" />
+              </div>
+            </div>
+            <div class="skills-programs_item">
+              <img class="icon" src="/images/Ae.svg" alt="Ae" />
+              <p class="programs">Adobe <br />After Effects</p>
+              <div class="stars">
+                <img src="/images/Star.svg" alt="" />
+                <img src="/images/Star.svg" alt="" />
+                <img src="/images/Star.svg" alt="" />
+                <img src="/images/Star.svg" alt="" />
+                <img src="/images/Star1.svg" alt="" />
+              </div>
+            </div>
+            <div class="skills-programs_item">
+              <img class="icon" src="/images/Figma.svg" alt="Figma" />
+              <p class="programs">Figma</p>
+              <div class="stars">
+                <img src="/images/Star.svg" alt="" />
+                <img src="/images/Star.svg" alt="" />
+                <img src="/images/Star.svg" alt="" />
+                <img src="/images/Star.svg" alt="" />
+                <img src="/images/Star1.svg" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="portfolio" id="Portfolio">
+        <div class="container">
+          <h2 class="portfolio__title">Portfolio</h2>
+          <div class="portfolio__new-collection">
+            <img class="portfolio__img" src="/images/photo1.jpg" alt="" />
+            <a class="portfolio__link" href="#"
+              >Online fashion store - Homepage</a
+            >
+          </div>
+          <div class="portfolio__reebok">
+            <img class="portfolio__img" src="/images/photo2.jpg" alt="" />
+            <a class="portfolio__link" href="#">Reebok Store - Concept</a>
+          </div>
+          <div class="portfolio__braun">
+            <img class="portfolio__img" src="/images/photo3.jpg" alt="" />
+            <a class="portfolio__link" href="#">Braun Landing Page - Concept</a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer" id="Contacts">
+      <div class="container">
+        <h2>Contacts</h2>
+        <p class="footer__subtitle">
+          Want to know more or just chat?<br />
+          You are welcome!
+        </p>
+        <a class="footer__btm" href="mailto:V-kornilin@mail.ru">Send message</a>
+        <div class="footer__social">
+          <a href=""><img src="/images/In.svg" /></a>
+          <a href=""><img src="/images/inst.svg" /></a>
+          <a href=""><img src="/images/be.svg" /></a>
+          <a href=""><img src="/images/sur.svg" /></a>
+        </div>
+        <p class="footer_text">
+          Like me on <br />LinkedIn, Instagram, Behance, Dribble
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
